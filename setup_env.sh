@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #GCC
 lcgRelease=${1:-0}
 
