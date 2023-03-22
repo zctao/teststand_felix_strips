@@ -1,0 +1,48 @@
+{
+  "scan": {
+    "analysis": {
+      "0": {
+        "algorithm": "OccupancyAnalysis",
+        "config": {}
+      },
+      "n_count": 1
+    },
+    "histogrammer": {
+      "0": {
+        "algorithm": "OccupancyMap",
+        "config": {}
+      },
+      "n_count": 1
+    },
+    "loops": [
+      {
+        "config": {
+          "trig_count": 10,
+          "trig_frequency": 40000000,
+          "trig_time": 0,
+          "l0_latency": 5,
+          "noInject": true,
+          "digital": false,
+          "useHitCount": true,
+          "trickle_frequency": 10
+        },
+        "loopAction": "StarFelixTriggerLoop"
+      },
+      {
+        "loopAction": "StdDataLoop"
+      }
+    ],
+    "name": "DigitalScan",
+    "prescan": {
+      "ABCs_TM": 1,
+      "ABCs_RRMODE": 1,
+      "ABCs_DETMODE": 1,
+      "ABCs_LP_ENABLE": 0,
+      "ABCs_PR_ENABLE": 0,
+      "ABCs_ENCOUNT": 1,
+      "ABCs_TEST_PULSE_ENABLE": 1,
+      "ABCs_LATENCY": 6,
+      "ABCs_MASKs": 1
+    }
+  }
+}

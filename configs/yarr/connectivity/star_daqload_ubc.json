@@ -1,0 +1,12 @@
+{
+    "chipType" : "Star",
+    "chips" : [
+        {
+            "config": "configs_ubc/defaults/default_star_ubc.json",
+            "tx" : 1,
+            "rx" : 0,
+            "enable": 1,
+            "locked": 1
+        }
+    ]
+}

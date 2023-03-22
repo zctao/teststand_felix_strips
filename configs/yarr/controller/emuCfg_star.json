@@ -1,0 +1,10 @@
+{
+    "ctrlCfg" : {
+        "type": "emu_Star",
+        "cfg" : {
+            "hprPeriod" : 40000,
+            "feCfg" : "configs/yarr/emulator/emu_fe0_star.json",
+            "chipCfg" : "configs/yarr/emuConfig/example_Star_SingleChip.json"
+        }
+    }
+}

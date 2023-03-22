@@ -1,0 +1,20 @@
+{
+  "ctrlCfg": {
+    "type": "Netio",
+    "cfg": {
+      "NetIO": {
+        "host": "127.0.0.1",
+        "txPort": 12341,
+        "rxPort": 12350,
+        "manchester": false,
+        "flip": false,
+        "extend": false,
+        "feType": "star",
+        "verbose": true,
+        "debug": true,
+        "rxWaitTime": 5000000
+      }
+    }
+  }
+}
+

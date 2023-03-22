@@ -1,0 +1,10 @@
+{
+    "chipType": "Star",
+    "chips": [{
+            "config": "configs/yarr/emuConfig/Star.json",
+            "enable": 1,
+            "locked": 1,
+            "rx": 1,
+            "tx": 0
+        }]
+}
