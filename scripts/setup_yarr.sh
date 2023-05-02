@@ -32,7 +32,11 @@ if [ ! -d $yarrDir ]; then
   fi
 else
   echo "Use YARR in $yarrDir"
-  compile_yarr
+  read -r -p "Compile YARR? [y/N]" compile
+  compile=${compile,,}
+  if [[ "$compile" =~ ^(yes|y)$ ]]; then
+    compile_yarr
+  fi
   export YARRDIR=$yarrDir
 fi
 
