@@ -1,5 +1,5 @@
 #!/bin/bash
-yarrDir=${1:-${MyWorkDIR}/Yarr}
+yarrDir=${1:-${TSWorkDIR}/Yarr}
 updateSrc=${2:-0}
 
 function install_yarr {
