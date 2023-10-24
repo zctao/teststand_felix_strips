@@ -13,6 +13,9 @@ function compile_yarr {
   fi
 
   # compile
+  # gcc 11 from LCG release
+  source ${TSWorkDIR}/scripts/setup_gcc.sh 1
+
   cmake3 -S $yarrDir -B $yarrDir/build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=cmake/linux-gcc -DYARR_CONTROLLERS_TO_BUILD="Spec;Emu;StarEmu;Fei4Emu;Rd53aEmu;NetioHW;FelixClient;ItsdaqFW" -DYARR_FRONT_ENDS_TO_BUILD=all -DBUILD_TESTS=on
   # or build all
   #cmake3 -S $yarrDir -B $yarrDir/build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=cmake/linux-gcc -DYARR_CONTROLLERS_TO_BUILD=all -DYARR_FRONT_ENDS_TO_BUILD=all -DBUILD_TESTS=on
