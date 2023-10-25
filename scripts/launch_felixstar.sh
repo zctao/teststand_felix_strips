@@ -1,8 +1,9 @@
 #!/bin/bash
-config=${1:-$TSWorkDIR/configs/felix-star/supervisord_tcp.conf}
+config=${1:-$TSWorkDIR/configs/felix-star/supervisord.conf}
 
 # enable elinks
-source $TSWorkDIR/configs/elinks/phase2_enable_elinks_daqload.sh
+source $TSWorkDIR/configs/elinks/phase2_disable_elinks_all.sh 00 1
+source $TSWorkDIR/configs/elinks/phase2_enable_elinks_daqload.sh 00 1
 
 # make log directory
 mkdir -p logs
