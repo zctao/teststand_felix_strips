@@ -1,0 +1,9 @@
+{
+    "pattern": "[%T:%e]%^[%=8l][%=15n]:%$ %v",
+    "log_config": [
+        {"name": "FelixController", "level": "debug"},
+        {"name": "FelixTxCore", "level": "debug"},
+        {"name": "FelixRxCore", "level": "debug"},
+        {"name": "testFelixClient", "level": "info"}
+    ]
+}
