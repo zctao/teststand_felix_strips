@@ -3,9 +3,9 @@
     "type": "FelixClient",
     "cfg": {
       "FelixClient": {
-        "localIPorInterface": "lo",
+        "localIPorInterface": "enp1s0f0",
         "logLevel": "warning",
-        "busDir": "./bus",
+        "busDir": "/mnt/xrootdg/felix-bus-fs",
         "busGroupName": "FELIX",
         "verboseBus": false,
         "timeout": 1000,
