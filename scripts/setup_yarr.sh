@@ -2,7 +2,7 @@
 yarrDir=${1:-${TSWorkDIR}/Yarr}
 updateSrc=${2:-0}
 
-function install_yarr {
+function checkout_yarr {
   git clone -b devel https://gitlab.cern.ch/YARR/YARR.git $yarrDir
 }
 
@@ -29,9 +29,9 @@ if [ ! -d $yarrDir ]; then
   read -r -p "Install YARR to $yarrDir? [y/N]" install
   install=${install,,}    # lower case
   if [[ "$install" =~ ^(yes|y)$ ]]; then
-    install_yarr
+    checkout_yarr
     compile_yarr
-    export YARRDIR=$yarrDir 
+    export YARRDIR=$yarrDir
   fi
 else
   echo "Use YARR in $yarrDir"
@@ -43,4 +43,6 @@ else
   export YARRDIR=$yarrDir
 fi
 
-
+if [[ ! -z "${YARRDIR}" ]]; then
+  export PATH=${YARRDIR}/bin:${PATH}
+fi
