@@ -14,14 +14,14 @@
       },
       "ToFLX": {
         "detectorID": 0,
-        "connectorID": 1,
+        "connectorID": 0,
         "protocol": 0,
         "flip": false,
         "broadcast": false
       },
       "ToHost": {
         "detectorID": 0,
-        "connectorID": 1,
+        "connectorID": 0,
         "protocol": 0,
         "flushTime": 50,
         "enableMonitor": true,
