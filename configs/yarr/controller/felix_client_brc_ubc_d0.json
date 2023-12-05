@@ -1,0 +1,34 @@
+{
+  "ctrlCfg": {
+    "type": "FelixClient",
+    "cfg": {
+      "FelixClient": {
+        "localIPorInterface": "enp1s0f0np0",
+        "logLevel": "warning",
+        "busDir": "/mnt/xrootdg/felix-bus-fs",
+        "busGroupName": "FELIX",
+        "verboseBus": false,
+        "timeout": 1000,
+        "netioPages": 256,
+        "netioPagesize": 65536
+      },
+      "ToFLX": {
+        "detectorID": 0,
+        "connectorID": 0,
+        "protocol": 0,
+        "flip": false,
+        "broadcast": true
+      },
+      "ToHost": {
+        "detectorID": 0,
+        "connectorID": 0,
+        "protocol": 0,
+        "flushTime": 50,
+        "enableMonitor": true,
+        "monitorInterval": 1000,
+        "queueLimitMB": 4000,
+        "waitTime": 10000
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "scan": {
     "analysis": {
       "0": {
-        "algorithm": "OccupancyAnalysis",
+        "algorithm": "HistogramArchiver",
         "config": {}
       },
       "n_count": 1
@@ -17,14 +17,16 @@
     "loops": [
       {
         "config": {
-          "trig_count": 1000,
-          "trig_frequency": 100,
+          "trig_count": 50000,
+          "trig_frequency": 3000,
           "trig_time": 0,
           "l0_latency": 5,
           "noInject": true,
-          "digital": false
+          "digital": false,
+          "useHitCount": false,
+          "trickle_frequency": 10
         },
-        "loopAction": "StarTriggerLoop"
+        "loopAction": "StarFelixTriggerLoop"
       },
       {
         "loopAction": "StdDataLoop"

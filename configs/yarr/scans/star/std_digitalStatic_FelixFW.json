@@ -17,13 +17,13 @@
     "loops": [
       {
         "config": {
-          "trig_count": 10,
-          "trig_frequency": 40000000,
+          "trig_count": 1000,
+          "trig_frequency": 3000,
           "trig_time": 0,
           "l0_latency": 5,
           "noInject": true,
           "digital": false,
-          "useHitCount": true,
+          "useHitCount": false,
           "trickle_frequency": 10
         },
         "loopAction": "StarFelixTriggerLoop"
@@ -37,8 +37,8 @@
       "ABCs_TM": 1,
       "ABCs_RRMODE": 1,
       "ABCs_DETMODE": 1,
-      "ABCs_LP_ENABLE": 0,
-      "ABCs_PR_ENABLE": 0,
+      "ABCs_LP_ENABLE": 1,
+      "ABCs_PR_ENABLE": 1,
       "ABCs_ENCOUNT": 1,
       "ABCs_TEST_PULSE_ENABLE": 1,
       "ABCs_LATENCY": 6,
