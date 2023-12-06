@@ -18,7 +18,7 @@
       {
         "config": {
           "trig_count": 1000,
-          "trig_frequency": 3000,
+          "trig_frequency": 5000,
           "trig_time": 0,
           "l0_latency": 5,
           "noInject": true,
