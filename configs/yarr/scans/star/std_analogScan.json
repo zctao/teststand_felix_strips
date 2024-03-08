@@ -1,0 +1,58 @@
+{
+  "scan": {
+    "analysis": {
+      "0": {
+        "algorithm": "OccupancyAnalysis",
+        "config": {}
+      },
+      "n_count": 1
+    },
+    "histogrammer": {
+      "0": {
+        "algorithm": "OccupancyMap",
+        "config": {}
+      },
+      "n_count": 1
+    },
+    "loops": [
+      {
+        "config": {},
+        "loopAction": "StarRegDump"
+      },
+      {
+        "config": {
+          "trig_count": 100,
+          "trig_frequency": 100,
+          "trig_time": 0,
+          "l0_latency": 5,
+          "noInject": false,
+          "digital": false
+        },
+        "loopAction": "StarTriggerLoop"
+      },
+      {
+        "loopAction": "StdDataLoop"
+      }
+    ],
+    "name": "AnalogScan",
+    "prescan": {
+      "HCCs_MASKHPR": 1,
+      "HCCs_STOPHPR": 1,
+      "ABCs_MASKHPR": 1,
+      "ABCs_STOPHPR": 1,
+      "ABCs_TM": 0,
+      "ABCs_RRMODE": 1,
+      "ABCs_DETMODE": 1,
+      "ABCs_LP_ENABLE": 1,
+      "ABCs_PR_ENABLE": 1,
+      "ABCs_ENCOUNT": 0,
+      "ABCs_CALPULSE_ENABLE":    1,
+      "ABCs_CALPULSE_POLARITY":  0,
+      "ABCs_CURRDRIV": 4,
+      "ABCs_LATENCY": 3,
+      "ABCs_MASKs": 0,
+      "ABCs_BCAL": 50,
+      "ABCs_BVT": 30
+    }
+  }
+}

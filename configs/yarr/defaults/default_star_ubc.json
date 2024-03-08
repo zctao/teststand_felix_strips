@@ -44,6 +44,8 @@
             "CREG6": "00000086"
         },
 
+        "trims": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+
         "comment": "These are the sub-regs that are most likely to need tweaking",
         "subregs": [{"STR_DEL": 13, "BTRANGE": 2, "BVT": 24, "D_S": "01ff", "A_S": "01ff"},
                     {"STR_DEL": 13, "BTRANGE": 2, "BVT": 24, "D_S": "01ff", "A_S": "01ff"},
