@@ -2,98 +2,112 @@
     "chipType" : "Star",
     "chips" : [
         {
-            "config": "configs/yarr/defaults/FELIG_00.json",
+            "config": "../defaults/FELIG_00.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 1,
             "rx" : 0
         },
         {
-            "config": "configs/yarr/defaults/FELIG_01.json",
+            "config": "../defaults/FELIG_01.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 1,
             "rx" : 2
         },
         {
-            "config": "configs/yarr/defaults/FELIG_02.json",
+            "config": "../defaults/FELIG_02.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 1,
             "rx" : 4
         },
         {
-            "config": "configs/yarr/defaults/FELIG_03.json",
+            "config": "../defaults/FELIG_03.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 1,
             "rx" : 6
         },
         {
-            "config": "configs/yarr/defaults/FELIG_04.json",
+            "config": "../defaults/FELIG_04.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 1,
             "rx" : 8
         },
         {
-            "config": "configs/yarr/defaults/FELIG_05.json",
+            "config": "../defaults/FELIG_05.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 6,
             "rx" : 10
         },
         {
-            "config": "configs/yarr/defaults/FELIG_06.json",
+            "config": "../defaults/FELIG_06.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 6,
             "rx" : 12
         },
         {
-            "config": "configs/yarr/defaults/FELIG_07.json",
+            "config": "../defaults/FELIG_07.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 6,
             "rx" : 14
         },
         {
-            "config": "configs/yarr/defaults/FELIG_08.json",
+            "config": "../defaults/FELIG_08.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 6,
             "rx" : 16
         },
         {
-            "config": "configs/yarr/defaults/FELIG_09.json",
+            "config": "../defaults/FELIG_09.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 11,
             "rx" : 18
         },
         {
-            "config": "configs/yarr/defaults/FELIG_10.json",
+            "config": "../defaults/FELIG_10.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 11,
             "rx" : 20
         },
         {
-            "config": "configs/yarr/defaults/FELIG_11.json",
+            "config": "../defaults/FELIG_11.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 11,
             "rx" : 22
         },
         {
-            "config": "configs/yarr/defaults/FELIG_12.json",
+            "config": "../defaults/FELIG_12.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 11,
             "rx" : 24
         },
         {
-            "config": "configs/yarr/defaults/FELIG_13.json",
+            "config": "../defaults/FELIG_13.json",
+            "path": "relToCon",
             "locked": true,
             "enable": true,
             "tx" : 16,

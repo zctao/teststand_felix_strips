@@ -2,7 +2,8 @@
     "chipType" : "Star",
     "chips" : [
         {
-            "config": "configs/yarr/defaults/default_star_ubc.json",
+            "config": "../defaults/default_star_ubc.json",
+            "path": "relToCon",
             "tx" : 1,
             "rx" : 0,
             "enable": 1,
