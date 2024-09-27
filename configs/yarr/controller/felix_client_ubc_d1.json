@@ -3,7 +3,7 @@
     "type": "FelixClient",
     "cfg": {
       "FelixClient": {
-        "localIPorInterface": "enp1s0f0np0",
+        "localIPorInterface": "enp1s0f1np1",
         "logLevel": "warning",
         "busDir": "/data/itk-strips/felix-bus-fs",
         "busGroupName": "FELIX",
