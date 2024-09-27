@@ -4,8 +4,8 @@
         {
             "config": "../defaults/default_star_ubc.json",
             "path": "relToCon",
-            "tx" : 1,
-            "rx" : 0,
+            "tx" : 129,
+            "rx" : 128,
             "enable": 1,
             "locked": 1
         }
